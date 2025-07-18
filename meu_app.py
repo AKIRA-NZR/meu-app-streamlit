@@ -1,8 +1,8 @@
 import streamlit as st
 
-a = st.text_input("Você me ama?")
+a = st.text_input("Este código funciona?")
 if a:
     if a.lower() == "sim":
-        st.write("Eu também te amo, chata :)")
+        st.write("Sim. Está funcionando corretamente")
     else:
-        st.write("Diga que sim,vagabunda")
+        st.write("Seu codigo não está funcionando")
